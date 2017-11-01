@@ -1,0 +1,1141 @@
+package overwatch;
+/**
+*
+* @author Jeremy Robb
+*/
+import java.util.Scanner;
+
+import org.omg.Messaging.SyncScopeHelper;
+public class test {
+
+
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		Scanner boop = new Scanner(System.in);
+		int doo = 0;
+		int ge = 0;
+		int mc = 0;
+		int ph = 0;
+		int re = 0;
+		int so = 0;
+		int som = 0;
+		int tr = 0;
+		int ba = 0;
+		int ha = 0;
+		int ju = 0;
+		int me = 0;
+		int to = 0;
+		int wi = 0;
+		int dv = 0;
+		int rei = 0;
+		int ro = 0;
+		int win = 0;
+		int za = 0;
+		int an = 0;
+		int lu = 0;
+		int mer = 0;
+		int sy = 0;
+		int ze = 0;
+		int or = 0;
+		String choice;
+		int tally;
+		System.out.println("This is a test to determine what overwatch character best suits you, simply answer by typing one of the two (maybe three) posible answers");
+		System.out.println("eg. do you like being far from your team or close (far - close) so say either 'far' or 'close'");
+		System.out.println(" ");
+		System.out.println("after that say how important that option was to you by typing a number from 0 - 5");
+		System.out.println("(if you say 0 ((which means it doesent matter one bit)) then your answer for that question wont be calculated in the final tally)");
+		System.out.println(" ");
+		System.out.println("finally, if your results show two (or more!) characters than means that both are equally as plausible for you (You're a divergent!)");
+		System.out.println(" ");
+
+
+		/*	Heres the tally blueprints
+	doo = doo + tally;
+	ge = ge + tally;
+	mc = mc + tally;
+	ph = ph + tally;
+	re = re + tally;
+	so = so + tally;
+	som = som + tally;
+	tr = tr + tally;
+	ba = ba + tally;
+	ha = ha + tally;
+	ju = ju + tally;
+	me = me + tally;
+	to = to + tally;
+	wi = wi + tally;
+	dv = dv + tally;
+	rei = rei + tally;
+	ro = ro + tally;
+	win = win + tally;
+	za = za + tally;
+	an = an + tally;
+	lu = lu + tally;
+	mer = mer + tally;
+	sy = sy + tally;
+	ze = ze + tally;
+		 */
+
+
+
+		/*		if (X >= or && X >= ge && X >= mc && X >= ph && X >= re && X >= so && X >= som && X >= tr && X >= ba && X >= ha && X >= ju && X >= me && X >= to && X >= wi && X >= dv && X >= rei && X >= ro && X >= win && X >= za && X >= an && X >= lu && X >= mer && X >= sy && X >= ze){
+	System.out.println("You got X!");
+	}
+		 */
+		//this is how to do the final tally
+
+/*
+		VVV QUESTIONS VVVV
+		close or far from your team
+		boy or girl character
+		dps, tank or support
+		hitscan or projectile (hitscan means bullets hit immediately)
+		difficulty (easy medium or hard difficulty according to blizard difficulty ratings)
+		play as a human character or something else
+		health or agility (as a mechanism of survival)
+		close, medium, far (from the enemy)
+		good bad or neutral character (lorewise)
+		abilities to hurt the enemy, help the team, or do a little of both
+		kind of bullets (real or fantasy weapons)
+		abilities focus on you or the environment
+		initiator or follower (for beggining a battle)
+		
+		*/
+		
+		/*
+		reactionary or methodical
+		/*
+		
+		/*	System.out.println("X (X - X)");
+	choice = scan.next();
+	if (choice.equals("X")){
+
+		System.out.println("How important is it to you? (0-10)");
+		tally = scan.nextInt();
+	ge = ge + tally;
+	mc = mc + tally;
+	ph = ph + tally;
+	re = re + tally;
+	so = so + tally;
+	som = som + tally;
+	tr = tr + tally;
+	ba = ba + tally;
+	ha = ha + tally;
+	ju = ju + tally;
+	me = me + tally;
+	to = to + tally;
+	wi = wi + tally;
+	dv = dv + tally;
+	rei = rei + tally;
+	ro = ro + tally;
+	win = win + tally;
+	za = za + tally;
+	an = an + tally;
+	lu = lu + tally;
+	mer = mer + tally;
+	sy = sy + tally;
+	ze = ze + tally;
+	}
+	if (choice.equals("X")){
+		System.out.println("How important is it to you? (0-10)");
+		tally = scan.nextInt();
+	ge = ge + tally;
+	mc = mc + tally;
+	ph = ph + tally;
+	re = re + tally;
+	so = so + tally;
+	som = som + tally;
+	tr = tr + tally;
+	ba = ba + tally;
+	ha = ha + tally;
+	ju = ju + tally;
+	me = me + tally;
+	to = to + tally;
+	wi = wi + tally;
+	dv = dv + tally;
+	rei = rei + tally;
+	ro = ro + tally;
+	win = win + tally;
+	za = za + tally;
+	an = an + tally;
+	lu = lu + tally;
+	mer = mer + tally;
+	sy = sy + tally;
+	ze = ze + tally;
+	}
+	//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	*/
+
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		System.out.println("do you like being far from your team or close (far - close)");
+		choice = scan.next();
+		if (choice.equals("far")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			ge = ge + tally;
+			ph = ph + tally;
+			re = re + tally;
+			som = som + tally;
+			tr = tr + tally;
+			wi = wi + tally;
+			win = win + tally;
+			doo = doo + tally;
+		}
+		if (choice.equals("close")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			mc = mc + tally;
+
+
+			so = so + tally;
+
+
+			ba = ba + tally;
+			ha = ha + tally;
+			ju = ju + tally;
+			me = me + tally;
+			to = to + tally;
+
+			dv = dv + tally;
+			rei = rei + tally;
+			ro = ro + tally;
+
+			za = za + tally;
+			an = an + tally;
+			lu = lu + tally;
+			mer = mer + tally;
+			sy = sy + tally;
+			ze = ze + tally;
+			or = or + tally;
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("do you prefer a male or female character? (male - female)");
+		choice = scan.next();
+		if (choice.equals("male")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			ge = ge + tally;
+			mc = mc + tally;
+			
+			re = re + tally;
+			so = so + tally;
+			
+			
+		
+			ha = ha + tally;
+			ju = ju + tally;
+			
+			to = to + tally;
+		
+			
+			rei = rei + tally;
+			ro = ro + tally;
+			win = win + tally;
+			
+			
+			lu = lu + tally;
+		
+			
+			ze = ze + tally;
+			doo = doo + tally;
+		}
+		if (choice.equals("female")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			
+			
+			ph = ph + tally;
+			
+			
+			som = som + tally;
+			tr = tr + tally;
+			ba = ba + tally;
+			
+			
+			me = me + tally;
+			
+			wi = wi + tally;
+			dv = dv + tally;
+			
+			
+			
+			za = za + tally;
+			an = an + tally;
+			
+			mer = mer + tally;
+			sy = sy + tally;
+			or = or + tally;
+		}
+
+		//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+		System.out.println("Do you like being a dps (Damage dealer) a tank (Damage taker) or a support (help those two do their jobs better) (dps - tank - support)");
+		choice = scan.next();
+		if (choice.equals("dps")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			ge = ge + tally;
+			mc = mc + tally;
+			ph = ph + tally;
+			re = re + tally;
+			so = so + tally;
+			som = som + tally;
+			tr = tr + tally;
+			ba = ba + tally;
+			ha = ha + tally;
+			ju = ju + tally;
+			me = me + tally;
+			to = to + tally;
+			wi = wi + tally;
+			doo = doo + tally;
+		}
+		if (choice.equals("tank")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			dv = dv + tally;
+			rei = rei + tally;
+			ro = ro + tally;
+			win = win + tally;
+			za = za + tally;
+			or = or + tally;
+		}
+		if (choice.equals("support")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+			an = an + tally;
+			lu = lu + tally;
+			mer = mer + tally;
+			sy = sy + tally;
+			ze = ze + tally;
+		}
+		//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("are you used to/do you prefer hitscan when shooting (no bullet/projectile travel time) or projectile when shooting (bullets/projectiles do have travel time) (hitscan - projectile)");
+		choice = scan.next();
+		if (choice.equals("hitscan")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+		mc = mc + tally;
+		
+		re = re + tally;
+		so = so + tally;
+		som = som + tally;
+		tr = tr + tally;
+		ba = ba + tally;
+	
+		
+		
+	
+		wi = wi + tally;
+		dv = dv + tally;
+	
+		ro = ro + tally;
+		win = win + tally;
+		za = za + tally;
+		an = an + tally;
+		
+	
+		
+		
+		}
+		if (choice.equals("projectile")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		
+		ph = ph + tally;
+		
+		
+		
+	
+	
+		ha = ha + tally;
+		ju = ju + tally;
+		me = me + tally;
+		to = to + tally;
+		
+		
+		rei = rei + tally;
+	
+	
+		
+		
+		lu = lu + tally;
+		mer = mer + tally;
+		sy = sy + tally;
+		ze = ze + tally;
+		or = or + tally;
+		doo = doo + tally;
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("do you prefer an easy, medium, or hard character (easy - medium - hard)");
+		choice = scan.next();
+		if (choice.equals("easy")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+	
+		ph = ph + tally;
+		re = re + tally;
+		so = so + tally;
+
+		
+		ba = ba + tally;
+	
+		
+
+	
+	
+	
+		rei = rei + tally;
+		ro = ro + tally;
+		
+	
+	
+
+		mer = mer + tally;
+	
+	
+		}
+		if (choice.equals("medium")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+		mc = mc + tally;
+		
+		
+		
+		
+		tr = tr + tally;
+		
+	
+		ju = ju + tally;
+		
+		to = to + tally;
+		wi = wi + tally;
+		dv = dv + tally;
+		
+	
+		win = win + tally;
+		
+		
+		lu = lu + tally;
+	
+		sy = sy + tally;
+		or = or + tally;
+		}
+		if (choice.equals("hard")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+	
+	
+	
+		
+		som = som + tally;
+	
+		
+		ha = ha + tally;
+		
+		me = me + tally;
+		
+		
+		
+		
+	
+	
+		za = za + tally;
+		an = an + tally;
+		
+		
+		sy = sy + tally;
+		ze = ze + tally;
+		doo = doo + tally;
+		}
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("do you want to play as a human, or something else (human - other)");
+		choice = scan.next();
+		if (choice.equals("human")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		mc = mc + tally;
+		ph = ph + tally;
+		
+		so = so + tally;
+		som = som + tally;
+		tr = tr + tally;
+		
+		ha = ha + tally;
+		
+		me = me + tally;
+		
+	
+		dv = dv + tally;
+		rei = rei + tally;
+		
+		
+		za = za + tally;
+		an = an + tally;
+		lu = lu + tally;
+		mer = mer + tally;
+		sy = sy + tally;
+		doo = doo + tally;
+		}
+		if (choice.equals("other")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+		
+		
+		re = re + tally;
+		
+		
+		
+		ba = ba + tally;
+		
+		ju = ju + tally;
+		
+		to = to + tally;
+		wi = wi + tally;
+		
+		
+		ro = ro + tally;
+		win = win + tally;
+		
+		
+		
+		
+		
+		ze = ze + tally;
+		or = or + tally;
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("do you prefer having health or agility (which is speed or dodging, being able to avoid taking damage in the first place) (health - agility)");
+		choice = scan.next();
+		if (choice.equals("health")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+
+		mc = mc + tally;
+		
+	
+		
+	
+		ba = ba + tally;
+		ha = ha + tally;
+		
+		me = me + tally;
+		to = to + tally;
+		
+		dv = dv + tally;
+		rei = rei + tally;
+		ro = ro + tally;
+		win = win + tally;
+		za = za + tally;
+		an = an + tally;
+		
+		
+		sy = sy + tally;
+		ze = ze + tally;
+		or = or + tally;
+		}
+		if (choice.equals("agility")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		
+		ph = ph + tally;
+		re = re + tally;
+		so = so + tally;
+		som = som + tally;
+		tr = tr + tally;
+		
+		
+		ju = ju + tally;
+		
+		
+		wi = wi + tally;
+		
+		
+		
+		
+		
+		
+		lu = lu + tally;
+		mer = mer + tally;
+		doo = doo + tally;
+		
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("do you prefer being close, medium, or far from the enemy (close - medium - far)");
+		choice = scan.next();
+		if (choice.equals("close")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		
+		
+		re = re + tally;
+		
+		som = som + tally;
+		tr = tr + tally;
+		
+	
+	
+		me = me + tally;
+		
+	
+		dv = dv + tally;
+		rei = rei + tally;
+		ro = ro + tally;
+		win = win + tally;
+		
+		
+		lu = lu + tally;
+	
+		sy = sy + tally;
+		doo = doo + tally;
+		}
+		if (choice.equals("medium")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+		mc = mc + tally;
+		ph = ph + tally;
+		
+		so = so + tally;
+		
+		
+		ba = ba + tally;
+		ha = ha + tally;
+		ju = ju + tally;
+		
+		to = to + tally;
+		
+		
+	
+		
+		
+		za = za + tally;
+		
+		mer = mer + tally;
+		
+		
+		ze = ze + tally;
+		or = or + tally;
+		}
+		if (choice.equals("far")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+	
+		ph = ph + tally;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		wi = wi + tally;
+		
+		
+		
+		
+	
+		an = an + tally;
+		
+	
+	
+		
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+		System.out.println("Do you prefer playing as a good, bad, or neutral character, lorewise (good - neutral - bad)");
+		choice = scan.next();
+		if (choice.equals("good")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+	
+		ph = ph + tally;
+		
+		so = so + tally;
+	
+		tr = tr + tally;
+		
+		
+	
+		me = me + tally;
+		to = to + tally;
+		
+		dv = dv + tally;
+		rei = rei + tally;
+		
+		win = win + tally;
+		
+		an = an + tally;
+		lu = lu + tally;
+		mer = mer + tally;
+		sy = sy + tally;
+		ze = ze + tally;
+		or = or + tally;
+		}
+		if (choice.equals("neutral")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		mc = mc + tally;
+		
+		
+		
+		
+		
+		ba = ba + tally;
+		ha = ha + tally;
+		
+		
+		
+		
+		
+		
+		
+		
+		za = za + tally;
+		
+		
+		
+		
+	
+		}
+		if (choice.equals("bad")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+	
+	
+		re = re + tally;
+		
+		som = som + tally;
+		
+		
+		
+		ju = ju + tally;
+	
+		
+		wi = wi + tally;
+		
+		
+		ro = ro + tally;
+	
+	
+		
+		
+	
+		
+		doo = doo + tally;
+		}
+		
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("Do you like your abilities to hurt the enemy, help the team, or do a little of both (note, people like reinhardt will still be help even though he has a hurt move) (hurt - both - help)");
+		choice = scan.next();
+		if (choice.equals("hurt")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		mc = mc + tally;
+		
+		
+		
+		
+		
+		
+		ha = ha + tally;
+		ju = ju + tally;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sy = sy + tally;
+		
+		}
+		if (choice.equals("both")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+		
+		
+		
+		so = so + tally;
+		
+		
+		ba = ba + tally;
+		
+		
+		
+		to = to + tally;
+		
+		
+		
+		ro = ro + tally;
+		
+		
+		an = an + tally;
+		lu = lu + tally;
+		mer = mer + tally;
+		
+		ze = ze + tally;
+		doo = doo + tally;
+		}
+		if (choice.equals("help")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+		
+		
+		re = re + tally;
+		
+		som = som + tally;
+		tr = tr + tally;
+		
+		
+		
+		me = me + tally;
+		
+		wi = wi + tally;
+		dv = dv + tally;
+		rei = rei + tally;
+		ph = ph + tally;
+		win = win + tally;
+		za = za + tally;
+		an = an + tally;
+		lu = lu + tally;
+		mer = mer + tally;
+		or = or + tally;
+		
+		}
+		//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("Do you like using real ammunition (such as weapons that shoot bullets or arrows) or fantasy ammunition (like electric or mind controlled balls)  (real - fake)");
+		choice = scan.next();
+		if (choice.equals("real")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		mc = mc + tally;
+		ph = ph + tally;
+		re = re + tally;
+		so = so + tally;
+		som = som + tally;
+		
+		ba = ba + tally;
+		ha = ha + tally;
+		ju = ju + tally;
+		
+		
+		wi = wi + tally;
+		dv = dv + tally;
+		
+		ro = ro + tally;
+		
+	
+		an = an + tally;
+		
+		mer = mer + tally;
+		
+		
+		}
+		if (choice.equals("fake")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+		
+		
+		
+	
+		
+		tr = tr + tally;
+		
+	
+		
+		me = me + tally;
+		to = to + tally;
+		
+		
+		rei = rei + tally;
+		
+		win = win + tally;
+		za = za + tally;
+		
+		lu = lu + tally;
+	
+		sy = sy + tally;
+		ze = ze + tally;
+		or = or + tally;
+		doo = doo + tally;
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		System.out.println("do you like your abilities to focus on the environment or on you/teamates/enemy (like roadhogs hook only focuses on the enemy and zaryas shield only focuses on her) (self - environment)");
+		choice = scan.next();
+		if (choice.equals("self")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		mc = mc + tally;
+		ph = ph + tally;
+		re = re + tally;
+		so = so + tally;
+		som = som + tally;
+		tr = tr + tally;
+		ba = ba + tally;
+		
+		
+		
+		
+		
+		dv = dv + tally;
+		rei = rei + tally;
+		ro = ro + tally;
+		
+		za = za + tally;
+		an = an + tally;
+		lu = lu + tally;
+		mer = mer + tally;
+		
+		ze = ze + tally;
+		doo = doo + tally;
+		}
+		if (choice.equals("environment")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+	
+		
+	
+		
+		
+	
+		
+		
+		ha = ha + tally;
+		ju = ju + tally;
+		me = me + tally;
+		to = to + tally;
+		wi = wi + tally;
+		
+		
+		
+		win = win + tally;
+		
+		
+		
+		
+		sy = sy + tally;
+		or = or + tally;
+		}
+		System.out.println("do you want to be an initiator for battles or a follower (note this is subjective to the creater but i have thought about each character) (initiator - follower)");
+		choice = scan.next();
+		if (choice.equals("initiator")){
+
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		ge = ge + tally;
+		
+		
+		
+		
+		som = som + tally;
+		tr = tr + tally;
+		
+		ha = ha + tally;
+		ju = ju + tally;
+		
+		
+		
+		
+		rei = rei + tally;
+		
+		win = win + tally;
+		za = za + tally;
+		an = an + tally;
+		lu = lu + tally;
+		
+		
+		doo = doo + tally;
+		}
+		if (choice.equals("follower")){
+			System.out.println("How important is it to you? (0-10)");
+			tally = scan.nextInt();
+		
+		mc = mc + tally;
+		ph = ph + tally;
+		re = re + tally;
+		so = so + tally;
+		
+		
+		ba = ba + tally;
+		
+	
+		me = me + tally;
+		to = to + tally;
+		wi = wi + tally;
+		dv = dv + tally;
+		
+		ro = ro + tally;
+		
+		
+		
+		
+		mer = mer + tally;
+		sy = sy + tally;
+		ze = ze + tally;
+		}
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+		
+		/*		if (X >= X && X >= or && X >= ge && X >= mc && X >= ph && X >= re && X >= so && X >= som && X >= tr && X >= ba && X >= ha && X >= ju && X >= me && X >= to && X >= wi && X >= dv && X >= rei && X >= ro && X >= win && X >= za && X >= an && X >= lu && X >= mer && X >= sy && X >= ze){
+			System.out.println("You got X!");
+			}
+	}
+		 */
+
+		if (doo >= doo && doo >= or && doo >= ge && doo >= mc && doo >= ph && doo >= re && doo >= so && doo >= som && doo >= tr && doo >= ba && doo >= ha && doo >= ju && doo >= me && doo >= to && doo >= wi && doo >= dv && doo >= rei && doo >= ro && doo >= win && doo >= za && doo >= an && doo >= lu && doo >= mer && doo >= sy && doo >= ze){
+			System.out.println("You got Doomfist!");
+			}
+		if (ge >= doo && ge >= or && ge >= mc && ge >= ph && ge >= re && ge >= so && ge >= som && ge >= tr && ge >= ba && ge >= ha && ge >= ju && ge >= me && ge >= to && ge >= wi && ge >= dv && ge >= rei && ge >= ro && ge >= win && ge >= za && ge >= an && ge >= lu && ge >= mer && ge >= sy && ge >= ze){
+			System.out.println("You got Genji!");
+		}
+		if (mc >= doo && mc >= or && mc >= ge && mc >= ph && mc >= re && mc >= so && mc >= som && mc >= tr && mc >= ba && mc >= ha && mc >= ju && mc >= me && mc >= to && mc >= wi && mc >= dv && mc >= rei && mc >= ro && mc >= win && mc >= za && mc >= an && mc >= lu && mc >= mer && mc >= sy && mc >= ze){
+			System.out.println("You got McCree!");
+		}
+		if (ph >= doo && ph >= or && ph >= ge && ph >= mc && ph >= re && ph >= so && ph >= som && ph >= tr && ph >= ba && ph >= ha && ph >= ju && ph >= me && ph >= to && ph >= wi && ph >= dv && ph >= rei && ph >= ro && ph >= win && ph >= za && ph >= an && ph >= lu && ph >= mer && ph >= sy && ph >= ze){
+			System.out.println("You got Phara!");
+		}
+		if (re >= doo && re >= or && re >= ge && re >= mc && re >= ph && re >= so && re >= som && re >= tr && re >= ba && re >= ha && re >= ju && re >= me && re >= to && re >= wi && re >= dv && re >= rei && re >= ro && re >= win && re >= za && re >= an && re >= lu && re >= mer && re >= sy && re >= ze){
+			System.out.println("You got Reaper!");
+		}
+		if (so >= doo && so >= or && so >= ge && so >= mc && so >= ph && so >= re && so >= so && so >= som && so >= tr && so >= ba && so >= ha && so >= ju && so >= me && so >= to && so >= wi && so >= dv && so >= rei && so >= ro && so >= win && so >= za && so >= an && so >= lu && so >= mer && so >= sy && so >= ze){
+			System.out.println("You got Soldier 76!");
+		}
+		if (som >= doo && som >= or && som >= ge && som >= mc && som >= ph && som >= re && som >= so && som >= som && som >= tr && som >= ba && som >= ha && som >= ju && som >= me && som >= to && som >= wi && som >= dv && som >= rei && som >= ro && som >= win && som >= za && som >= an && som >= lu && som >= mer && som >= sy && som >= ze){
+			System.out.println("You got Sombra!");
+		}
+		if (tr >= doo && tr >= or && tr >= ge && tr >= mc && tr >= ph && tr >= re && tr >= so && tr >= som && tr >= tr && tr >= ba && tr >= ha && tr >= ju && tr >= me && tr >= to && tr >= wi && tr >= dv && tr >= rei && tr >= ro && tr >= win && tr >= za && tr >= an && tr >= lu && tr >= mer && tr >= sy && tr >= ze){
+			System.out.println("You got Tracer!");
+		}
+		if (ba >= doo && ba >= or && ba >= ge && ba >= mc && ba >= ph && ba >= re && ba >= so && ba >= som && ba >= tr && ba >= ba && ba >= ha && ba >= ju && ba >= me && ba >= to && ba >= wi && ba >= dv && ba >= rei && ba >= ro && ba >= win && ba >= za && ba >= an && ba >= lu && ba >= mer && ba >= sy && ba >= ze){
+			System.out.println("You got Bastion!");
+		}
+		if (ha >= doo && ha >= or && ha >= ge && ha >= mc && ha >= ph && ha >= re && ha >= so && ha >= som && ha >= tr && ha >= ba && ha >= ha && ha >= ju && ha >= me && ha >= to && ha >= wi && ha >= dv && ha >= rei && ha >= ro && ha >= win && ha >= za && ha >= an && ha >= lu && ha >= mer && ha >= sy && ha >= ze){
+			System.out.println("You got Hanzo!");
+		}
+		if (ju >= doo && ju >= or && ju >= ge && ju >= mc && ju >= ph && ju >= re && ju >= so && ju >= som && ju >= tr && ju >= ba && ju >= ha && ju >= ju && ju >= me && ju >= to && ju >= wi && ju >= dv && ju >= rei && ju >= ro && ju >= win && ju >= za && ju >= an && ju >= lu && ju >= mer && ju >= sy && ju >= ze){
+			System.out.println("You got Junkrat!");
+		}
+		if (me >= doo && me >= or && me >= ge && me >= mc && me >= ph && me >= re && me >= so && me >= som && me >= tr && me >= ba && me >= ha && me >= ju && me >= me && me >= to && me >= wi && me >= dv && me >= rei && me >= ro && me >= win && me >= za && me >= an && me >= lu && me >= mer && me >= sy && me >= ze){
+			System.out.println("You got Mei!");
+		}
+		if (to >= doo && to >= or && to >= ge && to >= mc && to >= ph && to >= re && to >= so && to >= som && to >= tr && to >= ba && to >= ha && to >= ju && to >= me && to >= to && to >= wi && to >= dv && to >= rei && to >= ro && to >= win && to >= za && to >= an && to >= lu && to >= mer && to >= sy && to >= ze){
+			System.out.println("You got Torbjörn!");
+		}
+		if (wi >= doo && wi >= or && wi >= ge && wi >= mc && wi >= ph && wi >= re && wi >= so && wi >= som && wi >= tr && wi >= ba && wi >= ha && wi >= ju && wi >= me && wi >= to && wi >= wi && wi >= dv && wi >= rei && wi >= ro && wi >= win && wi >= za && wi >= an && wi >= lu && wi >= mer && wi >= sy && wi >= ze){
+			System.out.println("You got Widowmaker!");
+		}
+		if (dv >= doo && dv >= or && dv >= ge && dv >= mc && dv >= ph && dv >= re && dv >= so && dv >= som && dv >= tr && dv >= ba && dv >= ha && dv >= ju && dv >= me && dv >= to && dv >= wi && dv >= dv && dv >= rei && dv >= ro && dv >= win && dv >= za && dv >= an && dv >= lu && dv >= mer && dv >= sy && dv >= ze){
+			System.out.println("You got D.va!");
+		}
+		if (rei >= doo && rei >= or && rei >= ge && rei >= mc && rei >= ph && rei >= re && rei >= so && rei >= som && rei >= tr && rei >= ba && rei >= ha && rei >= ju && rei >= me && rei >= to && rei >= wi && rei >= dv && rei >= rei && rei >= ro && rei >= win && rei >= za && rei >= an && rei >= lu && rei >= mer && rei >= sy && rei >= ze){
+			System.out.println("You got Reinhardt!");
+		}
+		if (ro >= doo && ro >= or && ro >= ge && ro >= mc && ro >= ph && ro >= re && ro >= so && ro >= som && ro >= tr && ro >= ba && ro >= ha && ro >= ju && ro >= me && ro >= to && ro >= wi && ro >= dv && ro >= rei && ro >= ro && ro >= win && ro >= za && ro >= an && ro >= lu && ro >= mer && ro >= sy && ro >= ze){
+			System.out.println("You got Roadhog!");
+		}
+		if (win >= doo && win >= or && win >= ge && win >= mc && win >= ph && win >= re && win >= so && win >= som && win >= tr && win >= ba && win >= ha && win >= ju && win >= me && win >= to && win >= wi && win >= dv && win >= rei && win >= ro && win >= win && win >= za && win >= an && win >= lu && win >= mer && win >= sy && win >= ze){
+			System.out.println("You got Winston!");
+		}
+		if (za >= doo && za >= or && za >= ge && za >= mc && za >= ph && za >= re && za >= so && za >= som && za >= tr && za >= ba && za >= ha && za >= ju && za >= me && za >= to && za >= wi && za >= dv && za >= rei && za >= ro && za >= win && za >= za && za >= an && za >= lu && za >= mer && za >= sy && za >= ze){
+			System.out.println("You got Zarya!");
+		}
+		if (an >= doo && an >= or && an >= ge && an >= mc && an >= ph && an >= re && an >= so && an >= som && an >= tr && an >= ba && an >= ha && an >= ju && an >= me && an >= to && an >= wi && an >= dv && an >= rei && an >= ro && an >= win && an >= za && an >= an && an >= lu && an >= mer && an >= sy && an >= ze){
+			System.out.println("You got Ana!");
+		}
+		if (lu >= doo && lu >= or && lu >= ge && lu >= mc && lu >= ph && lu >= re && lu >= so && lu >= som && lu >= tr && lu >= ba && lu >= ha && lu >= ju && lu >= me && lu >= to && lu >= wi && lu >= dv && lu >= rei && lu >= ro && lu >= win && lu >= za && lu >= an && lu >= lu && lu >= mer && lu >= sy && lu >= ze){
+			System.out.println("You got Lúcio!");
+		}
+		if (mer >= doo && mer >= or && mer >= ge && mer >= mc && mer >= ph && mer >= re && mer >= so && mer >= som && mer >= tr && mer >= ba && mer >= ha && mer >= ju && mer >= me && mer >= to && mer >= wi && mer >= dv && mer >= rei && mer >= ro && mer >= win && mer >= za && mer >= an && mer >= lu && mer >= mer && mer >= sy && mer >= ze){
+			System.out.println("You got Mercy!");
+		}
+		if (sy >= doo && sy >= or && sy >= ge && sy >= mc && sy >= ph && sy >= re && sy >= so && sy >= som && sy >= tr && sy >= ba && sy >= ha && sy >= ju && sy >= me && sy >= to && sy >= wi && sy >= dv && sy >= rei && sy >= ro && sy >= win && sy >= za && sy >= an && sy >= lu && sy >= mer && sy >= sy && sy >= ze){
+			System.out.println("You got Symmetra!");
+		}
+		if (ze >= doo && ze >= or && ze >= ge && ze >= mc && ze >= ph && ze >= re && ze >= so && ze >= som && ze >= tr && ze >= ba && ze >= ha && ze >= ju && ze >= me && ze >= to && ze >= wi && ze >= dv && ze >= rei && ze >= ro && ze >= win && ze >= za && ze >= an && ze >= lu && ze >= mer && ze >= sy && ze >= ze){
+			System.out.println("You got Zenyatta!");
+		}
+		if (or >= doo && or >= or && or >= ge && or >= mc && or >= ph && or >= re && or >= so && or >= som && or >= tr && or >= ba && or >= ha && or >= ju && or >= me && or >= to && or >= wi && or >= dv && or >= rei && or >= ro && or >= win && or >= za && or >= an && or >= lu && or >= mer && or >= sy && or >= ze){
+			System.out.println("You got Orisa!");
+		}
+		System.out.println("If you want to see how high each character scored say tally, if not, congrats on getting your character! (:");
+	
+		choice = scan.next();
+		if (choice.equals("tally")){
+			System.out.println("________DPS_______");
+			System.out.println("Doomfist was: " + doo);
+			System.out.println("Gengi was: " + ge);
+			System.out.println("McCree was: " + mc);
+			System.out.println("Phara was: " + ph);
+			System.out.println("Reaper was: " + re);
+			System.out.println("Soldier 76 was: " + so);
+			System.out.println("Sombra was: " + som);
+			System.out.println("Tracer was: " + tr);
+			System.out.println("Bastion was: " + ba);
+			System.out.println("Hanzo was: " + ha);
+			System.out.println("Junkrat was: " + ju);
+			System.out.println("Mei was: " + me);
+			System.out.println("Torbjörn was: " + to);
+			System.out.println("Widowmaker was: " + wi);
+			System.out.println("_______TANKS_______");
+			System.out.println("D.va was: " + dv);
+			System.out.println("Reinhardt was: " + rei);
+			System.out.println("Roadhog was: " + ro);
+			System.out.println("Winston was: " + win);
+			System.out.println("Zarya was: " + za);
+			System.out.println("Orisa was: " + or);
+			System.out.println("______SUPPORT______");
+			System.out.println("Ana was: " + an);
+			System.out.println("Lúcio was: " + lu);
+			System.out.println("Mercy was: " + mer);
+			System.out.println("Symmetra was: " + sy);
+			System.out.println("Zenyatta was: " + ze);
+		}
+	}
+
+}
+
+
+
